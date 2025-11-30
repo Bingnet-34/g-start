@@ -1,4 +1,3 @@
-
 FROM teddysun/v2ray:latest
 
 # Expose the correct container port (8080)
@@ -10,6 +9,5 @@ COPY config.json /etc/v2ray/config.json
 # Run V2Ray with the config file
 CMD ["v2ray", "run", "-config", "/etc/v2ray/config.json"]
 
-
-# join telegram https://t.me/cvW_cvw  for new updates 
+# join telegram https://t.me/cvW_cvw for new updates 
 # my telegram username is @
