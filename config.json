@@ -1,7 +1,7 @@
 {
   "inbounds": [
     {
-      "port": 443,
+      "port": 8080,
       "protocol": "vless",
       "settings": {
         "clients": [
@@ -16,7 +16,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/GCP_KHALIL_DZ"
+          "path": "khalildz_@cvw_cvw"
         }
       }
     }
